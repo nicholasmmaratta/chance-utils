@@ -2,6 +2,7 @@ const logger = require ("./logger")
 const chance = require ("./chance")
 const freshMeat = require ("./random-user")
 const object = require ("./object")
+const { toCamelCase } = require("./replaceAndCamelCase")
 // . is one level up and ./logger is one level down of the file directoryish thing
 function main() {
     let arg1 = "Hello World!"
@@ -27,4 +28,8 @@ function main() {
 //function main is stored in heap memory in line 1
 //functions are frames like a picture!
 //main(arg2, arg1)
+
 main()
+
+toCamelCase("the_stealth_warrior")
+
