@@ -32,4 +32,4 @@ function main() {
 main()
 
 toCamelCase("the_stealth_warrior")
-
+console.log(toCamelCase("the_stealth_warrior"))
