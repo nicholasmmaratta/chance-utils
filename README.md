@@ -3,6 +3,17 @@ extend minimalist number generator to do more stuff
 
 # How To Contribute
 
+## File system
+
+`cd ..`
+- use this to change directory up a folder level
+
+`cd "folder/name"`
+- use this change directory down into the specific folder path
+
+`cd "./folder/name"`
+- "./" implies the current directory, and after the "/" is a level down
+
 ## Git commands
 
 Go to any terminal / powershell, and make sure you are in the correct directory for this github repository.
